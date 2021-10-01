@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    background-color: gray;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.current a {
+    color: orange;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    padding-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#branding {
+    position: absolute;
+    margin-top: 20px;
+}
+
+#showcase {
+    background-image: url(../img/gigi-logo.png);
+    height: 505px;
+    height: 373px;
+    background-size: cover;
+}
+
+#showcase div {
+    text-align: center;
+    padding-top: 115px;
+    color: white;
+    padding-top: 20px;
+}
+
+#showcase h1 {
+    font-size: 46px;
+}
+
+#newsletter {
+    height: 75px;
+    background-color: gray;
+}
+
+#newsletter div {
+    display: flex;
+    padding-top: 20px;
+}
+
+#newsletter form {
+    margin-left: 353px;
+}
+
+#newsletter form input {
+    height: 25px;
+    width: 230px;
+}
+
+.button_1 {
+    background-color: orange;
+    padding: 5px;
+}
